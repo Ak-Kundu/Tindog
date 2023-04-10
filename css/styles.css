@@ -1,0 +1,177 @@
+#title{
+    background-color: #ff4c68;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+     
+    
+}
+
+ /* Title section  */
+
+.container-fluid
+{
+    padding: 3% 15% 3% 15%;
+}
+
+/* navbar of the title section */
+.navbar-new
+{
+    margin-bottom: 4rem;
+}
+  
+.nav-item
+{
+    margin:1rem;
+}
+
+ /* heading of the title section  */
+ .h11
+{
+      font-family: 'Montserrat-black', sans-serif;
+      line-height: 1.5;
+      color:#fff;
+      font-size: xx-larger; 
+      font-weight:bolder;
+}
+
+/* Download buttons */
+.button-new
+{
+   margin: 2rem 1rem 1rem 1rem ;
+}
+
+ /* Image of the title section      */
+.rotate-img
+{
+    transform: rotate(20deg);
+    width:25%;
+    height:60%;
+    position:absolute;
+    right:10%;
+  
+
+}
+
+
+/* Feature section  */
+
+#features
+{
+ padding :7% 15%;
+ background-color: #fff;
+ position:relative;
+  
+}
+ 
+.new-container{
+    text-align:center;
+    font-family: 'Montserrat-bold', sans-serif;
+}
+.p1{
+    text-align:center;
+    color:#8f8f8f;
+     
+}
+.fa-solid
+{
+    color:#ef8172;
+}
+.fa-solid:hover
+{
+    color:#ff4c68;
+}
+
+/* testimonials section  */
+
+#testimonials 
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 7% 15%;
+    color:#fff;
+
+}
+
+.dog-img
+{
+   width:20%;
+   height: 20%;
+   border-radius:6rem;
+   margin:0.5rem;
+
+}
+
+#press
+{
+  background-color: #ef8172;
+  text-align: center;
+  margin-bottom: 4rem;
+  padding-bottom: 1rem;;
+}
+
+.press-img
+{
+    width:20%;
+}
+  
+
+/* pricing section  */
+#pricing
+{
+    padding:50px;
+}
+.card 
+{
+    text-align: center;
+}
+.pricing-column
+{
+    padding:3% 2%;
+}
+
+
+@media (max-width: 1000px)
+{
+    .rotate-img{
+        position: static;
+        transform: rotate(0deg);
+        width:50%;
+        height: auto;
+        
+
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+
+/* call to action section  */
+
+#cta
+{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 8rem;
+    color:#fff;
+     
+}
+#footer
+{
+    text-align: center;
+    padding:8rem 8rem 4rem ;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+ .icon
+ {
+    margin: 0.5rem;
+    color:black;
+ }
+ 
+ .name 
+ {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+ }
